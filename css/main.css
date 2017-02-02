@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100|400|500);
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #b19dd8;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 3em;
+  color: #6441a5;
+}
+
+a, a:focus, a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #a49fad;
+  text-decoration: none;
+  border-bottom: 2px solid #b19dd8;
+}
+
+
+.container {
+  max-width: 700px;
+}
+
+.row {
+  margin: 2px 0px;
+  padding: 5px;
+  line-height: 50px;
+}
+
+.menu {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+span{
+  margin-right: 25px;
+}
+
+#all, #online, #offline {
+  color: #4b307b;
+}
+
+#all:hover, #all:active, #all:focus, #all:visited {
+  color: #7777dd;
+}
+
+#online:hover, #online:active, #online:focus, #online:visited {
+  color: #77dd77;
+}
+
+#offline:hover, #offline:active, #offline:focus, #offline:visited {
+  color: #dd7777;
+}
+
+
+#display {
+  padding: 30px;
+  background-color: #4b307b;
+  border-radius: 10px;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 1px solid #b19dd8;
+}
+
+#name {
+  padding-top: 10px;
+}
+
+#streaming {
+  font-style: italic;
+  padding-top: 10px;
+}
+
+#name, #streaming {
+  line-height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+
