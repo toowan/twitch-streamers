@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100|400|500);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
 
 body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  color: #b19dd8;
+  color: #a49fad;
 }
 
 h1 {
@@ -17,13 +17,13 @@ h1 {
 }
 
 a, a:focus, a:visited {
-  color: white;
+  color: #b19dd8;
 }
 
 a:hover {
   color: #a49fad;
   text-decoration: none;
-  border-bottom: 2px solid #b19dd8;
+  border-bottom: 2px solid white;
 }
 
 
@@ -85,6 +85,7 @@ span{
 #streaming {
   font-style: italic;
   padding-top: 10px;
+  color: white;
 }
 
 #name, #streaming {
@@ -94,5 +95,20 @@ span{
   text-overflow: ellipsis;
   text-align: center;
 }
+
+
+.site-footer, .container:after {
+  height: 30px;
+  margin: 0 auto;
+}
+
+
+footer {
+  padding-top: 0px;
+  margin: 0 auto;
+  text-align: center; 
+  color: #a49fad;
+}
+
 
 
